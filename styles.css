@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px; /* Because each square will be 20px wide */
+    margin: auto;
+}
+
+.square {
+    box-sizing: border-box; /* This makes sure the border is included in the element's total width and height */
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
